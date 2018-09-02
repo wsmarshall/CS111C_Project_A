@@ -127,6 +127,8 @@ public class Trio<T extends Comparable<? super T>> implements Comparable<Trio <T
 					}
 				}
 			}
+		}else {
+			return false;
 		}
 		return trioEquals;
 	}
